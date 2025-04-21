@@ -54,8 +54,14 @@ jobs:
       - name: Install Libraries
         run: ${{ inputs.setupCommand }}
 
-      - name: Fix Mac Builds
-        if: inputs.name == 'macOS x86_64' or 'macOS ARM64'
+      - name: Fix Mac x86_64 Builds
+        if: inputs.name == 'macOS x86_64'
+        run: |
+          haxelib run lime rebuild swf
+          haxelib run lime rebuild mac
+
+      - name: Fix Mac ARM64 Builds
+        if: inputs.name == 'macOS ARM64'
         run: |
           haxelib run lime rebuild swf
           haxelib run lime rebuild mac

@@ -1,7 +1,16 @@
 name: Main
 
-on: workflow_dispatch
-
+ # Controls when the action will run.
+on:
+   # Triggers the workflow on push or pull request events but only for the master branch
+   push:
+     branches: [ main, experimental ]
+   pull_request:
+     branches: [ main, experimental ]
+ 
+   # Allows you to run this workflow manually from the Actions tab
+   workflow_dispatch:
+ 
 jobs:
   Build:
     name: ${{ matrix.name }}

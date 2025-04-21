@@ -41,7 +41,7 @@ jobs:
             buildArgs: "mac -arm64 -D HXCPP_ARM64"
             artifactName: macOSBuild-arm64
             artifactPath: export/release/macos/bin/*
-            uses: ./.github/workflows/build.yml
+    uses: ./.github/workflows/build.yml
     with:
         name: ${{ matrix.name }}
         os: ${{ matrix.os }}

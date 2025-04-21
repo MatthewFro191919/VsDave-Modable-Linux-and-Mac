@@ -1,0 +1,10 @@
+{
+	"skipSelect": [
+		"your-song-here",
+		"your-song-here-two"
+	],
+	"noExtraKeys": [
+		"test",
+		"your-song-here"
+	]
+}

@@ -1,0 +1,130 @@
+{
+      "characters": [
+        {
+          "newCharacter": [
+            {
+              "playername": "bf",
+              "thecharactername": "Boyfriend",
+              "thenotems": [1, 1, 1, 1],
+              "notestyle": ""
+            },
+            {
+              "playername": "bf-pixel",
+              "thecharactername": "Pixel Boyfriend",
+              "thenotems": [1, 1, 1, 1],
+              "notestyle": ""
+            }
+          ],
+          "mainName": "bf",
+          "mainnotems": [1, 1, 1, 1]
+        },
+        {
+          "newCharacter": [
+            {
+              "playername": "dave",
+              "thecharactername": "Dave",
+              "thenotems": [0.25, 0.25, 2, 2],
+              "notestyle": ""
+            }
+          ],
+          "mainName": "dave",
+          "mainnotems": [0.25, 0.25, 2, 2]
+        },
+        {
+          "newCharacter": [
+            {
+              "playername": "bambi-new",
+              "thecharactername": "Bambi",
+              "thenotems": [0, 0, 3, 0]
+            }
+          ],
+          "mainName": "bambi",
+          "mainnotems": [0, 0, 3, 0]
+        },
+        {
+          "newCharacter": [
+            {
+              "playername": "tristan",
+              "thecharactername": "Tristan",
+              "thenotems": [2, 0.5, 0.5, 0.5],
+              "notestyle": ""
+            }
+          ],
+          "mainName": "tristan",
+          "mainnotems": [2, 0.5, 0.5, 0.5]
+        },
+        {
+          "newCharacter": [
+            {
+              "playername": "tristan-golden",
+              "thecharactername": "Tristan Golden",
+              "thenotems": [0.25, 0.25, 0.25, 2],
+              "notestyle": ""
+            }
+          ],
+          "mainName": "tristan-golden",
+          "mainnotems": [0.25, 0.25, 0.25, 2]
+        },
+        {
+          "newCharacter": [
+            {
+              "playername": "dave-angey",
+              "thecharactername": "3D Dave",
+              "thenotems": [2, 2, 0.25, 0.25],
+              "notestyle": "3D"
+            },
+            {
+                "playername": "dave-festival-3d",
+                "thecharactername": "3D Dave Festival",
+                "thenotems": [2, 2, 0.25, 0.25],
+                "notestyle": "3D"
+            }
+          ],
+          "mainName": "dave-angey",
+          "mainnotems": [2, 2, 0.25, 0.25]
+        },
+        {
+          "newCharacter": [
+            {
+              "playername": "bambi-3d",
+              "thecharactername": "Expunged",
+              "thenotems": [0, 3, 0, 0],
+              "notestyle": "3D"
+            }
+          ],
+          "mainName": "bambi-3d",
+          "mainnotems": [0, 3, 0, 0]
+
+        },
+        {
+          "newCharacter": [
+            {
+              "playername": "shaggy",
+              "thecharactername": "Shaggy",
+              "thenotems": [1, 1, 1, 1],
+              "notestyle": ""
+            },
+            {
+                "playername": "supershaggy",
+                "thecharactername": "Shaggy (0.001%)",
+                "thenotems": [1, 1, 1, 1],
+                "notestyle": ""
+            },
+            {
+                "playername": "godshaggy",
+                "thecharactername": "Shaggy (0.002%)",
+                "thenotems": [1, 1, 1, 1],
+                "notestyle": ""
+            },
+            {
+                "playername": "redshaggy",
+                "thecharactername": "Red Shaggy",
+                "thenotems": [1, 1, 1, 1],
+                "notestyle": ""
+              }
+          ],
+          "mainName": "shaggy",
+          "mainnotems": [1, 1, 1, 1]
+        }
+      ]
+    }

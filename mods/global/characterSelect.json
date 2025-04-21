@@ -1,0 +1,16 @@
+{
+  "characters": [
+    {
+      "newCharacter": [
+        {
+          "playername": "bfexample",
+          "thecharactername": "BF Example",
+          "thenotems": [1, 1, 1, 1],
+          "notestyle": ""
+        }
+      ],
+      "mainName": "test",
+      "mainnotems": [1, 1, 1, 1]
+    }
+  ]
+}

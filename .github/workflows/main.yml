@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Main
+name: Build
 
 
 # Controls when the action will run.
@@ -24,7 +24,17 @@ jobs:
             os: windows-2019
             buildArgs: windows
             artifactName: windowsBuild
-            artifactPath: export\release\windows\bin\*\
+            artifactPath: export\release\windows\bin\*
+          - name: Linux
+            os: ubuntu-22.04
+            buildArgs: linux
+            artifactName: linuxBuild
+            artifactPath: export/release/linux/bin/*
+          - name: macOS x86_64
+            os: macos-13
+            buildArgs: "mac -D HXCPP_M64"
+            artifactName: macOSBuild-x86_64
+            artifactPath: export/release/macos/bin/*
     uses: ./.github/workflows/build.yml
     with:
         name: ${{ matrix.name }}

@@ -21,8 +21,13 @@ import flixel.util.FlxStringUtil;
 import flixel.FlxSprite;
 #if windows
 import lime.app.Application;
+#end
+
+#if sys
+import sys.io.File;
 import sys.FileSystem;
 #end
+
 import haxe.Json;
 import haxe.format.JsonParser;
 

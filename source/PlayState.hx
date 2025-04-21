@@ -78,9 +78,12 @@ import Discord.DiscordClient;
 #end
 
 #if windows
-import sys.io.File;
-import sys.io.Process;
 import lime.app.Application;
+#end
+
+#if sys
+import sys.io.File;
+import sys.FileSystem;
 #end
 
 import flixel.system.debug.Window;

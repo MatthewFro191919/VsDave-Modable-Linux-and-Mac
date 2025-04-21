@@ -20,6 +20,7 @@ haxelib install hscript
 haxelib install hxCodec 2.5.1          
 haxelib install linc_luajit
 haxelib install format
+haxelib install hxp
 haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
 haxelib git faxe https://github.com/uhrobots/faxe
 haxelib install hxcpp-debug-server

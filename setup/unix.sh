@@ -9,7 +9,7 @@ echo Installing dependencies...
 echo This might take a few moments depending on your internet speed
 haxelib git lime https://github.com/openfl/lime
 haxelib git swf https://github.com/openfl/swf
-haxelib git hxcpp https://github.com/HaxeFoundation/hxcpp
+haxelib install hxcpp
 haxelib install openfl 9.3.3
 haxelib install flixel 4.11.0
 haxelib install flixel-addons 2.11.0
